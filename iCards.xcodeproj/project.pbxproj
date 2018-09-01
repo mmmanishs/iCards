@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EF2AC8213B580F006C2593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EF2AC7213B580F006C2593 /* AppDelegate.swift */; };
+		06EF2ACA213B580F006C2593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EF2AC9213B580F006C2593 /* ViewController.swift */; };
+		06EF2ACD213B580F006C2593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EF2ACB213B580F006C2593 /* Main.storyboard */; };
+		06EF2ACF213B5811006C2593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EF2ACE213B5811006C2593 /* Assets.xcassets */; };
+		06EF2AD2213B5811006C2593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EF2AD0213B5811006C2593 /* LaunchScreen.storyboard */; };
+		3BD9603E6EF3FA0130E1BFBB /* Pods_iCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6110411C8B9246EA3FCBFC /* Pods_iCards.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06EF2AC4213B580F006C2593 /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EF2AC7213B580F006C2593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06EF2AC9213B580F006C2593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06EF2ACC213B580F006C2593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06EF2ACE213B5811006C2593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06EF2AD1213B5811006C2593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06EF2AD3213B5811006C2593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6110411C8B9246EA3FCBFC /* Pods_iCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C623FB87CE13F0B3625D86 /* Pods-iCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCards/Pods-iCards.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3092BA9EA99F269A8371C9 /* Pods-iCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCards/Pods-iCards.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06EF2AC1213B580F006C2593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD9603E6EF3FA0130E1BFBB /* Pods_iCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EF2ABB213B580F006C2593 = {
+			isa = PBXGroup;
+			children = (
+				06EF2AC6213B580F006C2593 /* iCards */,
+				06EF2AC5213B580F006C2593 /* Products */,
+				CF7CDDBFD2987C42B7C0B13C /* Pods */,
+				7647F7FC89A8C7B363E0F98C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06EF2AC5213B580F006C2593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06EF2AC4213B580F006C2593 /* iCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06EF2AC6213B580F006C2593 /* iCards */ = {
+			isa = PBXGroup;
+			children = (
+				06EF2AC7213B580F006C2593 /* AppDelegate.swift */,
+				06EF2AC9213B580F006C2593 /* ViewController.swift */,
+				06EF2ACB213B580F006C2593 /* Main.storyboard */,
+				06EF2ACE213B5811006C2593 /* Assets.xcassets */,
+				06EF2AD0213B5811006C2593 /* LaunchScreen.storyboard */,
+				06EF2AD3213B5811006C2593 /* Info.plist */,
+			);
+			path = iCards;
+			sourceTree = "<group>";
+		};
+		7647F7FC89A8C7B363E0F98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6110411C8B9246EA3FCBFC /* Pods_iCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7CDDBFD2987C42B7C0B13C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23C623FB87CE13F0B3625D86 /* Pods-iCards.debug.xcconfig */,
+				FF3092BA9EA99F269A8371C9 /* Pods-iCards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06EF2AC3213B580F006C2593 /* iCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EF2AD6213B5811006C2593 /* Build configuration list for PBXNativeTarget "iCards" */;
+			buildPhases = (
+				57DCD2B3463BB7474CC3650E /* [CP] Check Pods Manifest.lock */,
+				06EF2AC0213B580F006C2593 /* Sources */,
+				06EF2AC1213B580F006C2593 /* Frameworks */,
+				06EF2AC2213B580F006C2593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCards;
+			productName = iCards;
+			productReference = 06EF2AC4213B580F006C2593 /* iCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EF2ABC213B580F006C2593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Manish Singh";
+				TargetAttributes = {
+					06EF2AC3213B580F006C2593 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 06EF2ABF213B580F006C2593 /* Build configuration list for PBXProject "iCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06EF2ABB213B580F006C2593;
+			productRefGroup = 06EF2AC5213B580F006C2593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06EF2AC3213B580F006C2593 /* iCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EF2AC2213B580F006C2593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EF2AD2213B5811006C2593 /* LaunchScreen.storyboard in Resources */,
+				06EF2ACF213B5811006C2593 /* Assets.xcassets in Resources */,
+				06EF2ACD213B580F006C2593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DCD2B3463BB7474CC3650E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EF2AC0213B580F006C2593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EF2ACA213B580F006C2593 /* ViewController.swift in Sources */,
+				06EF2AC8213B580F006C2593 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06EF2ACB213B580F006C2593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EF2ACC213B580F006C2593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06EF2AD0213B5811006C2593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EF2AD1213B5811006C2593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06EF2AD4213B5811006C2593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06EF2AD5213B5811006C2593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06EF2AD7213B5811006C2593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C623FB87CE13F0B3625D86 /* Pods-iCards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79FS6EETVS;
+				INFOPLIST_FILE = iCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.icards.iCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06EF2AD8213B5811006C2593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3092BA9EA99F269A8371C9 /* Pods-iCards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79FS6EETVS;
+				INFOPLIST_FILE = iCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.icards.iCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EF2ABF213B580F006C2593 /* Build configuration list for PBXProject "iCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EF2AD4213B5811006C2593 /* Debug */,
+				06EF2AD5213B5811006C2593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EF2AD6213B5811006C2593 /* Build configuration list for PBXNativeTarget "iCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EF2AD7213B5811006C2593 /* Debug */,
+				06EF2AD8213B5811006C2593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EF2ABC213B580F006C2593 /* Project object */;
+}
